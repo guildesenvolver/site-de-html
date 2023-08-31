@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- stilizacao das margens das tabelas -->
+    <style>
+        body{background-color: beige;}
+        table, th, td{
+            border: 1px solid black;
+        }
+        table{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<thead>
+    <h1 style="background-color: bisque;">conhecendo um pouco mais de html</h1>
+</thead>
+      <tbody>
+          <!-- lista de compras -->
+             <ul>
+              <li>arroz</li>
+              <li>feijao</li>
+              <li>carne</li>
+              <li>salada</li>
+             </ul>
+          <!-- ao acordar -->
+             <ol>
+              <li>acordar</li>
+              <li>lavar o rosto</li>
+              <li>escovar os dentes</li>
+              <li>tomar cafe</li>
+             </ol>
+          <!-- ao viajar -->
+             <ol type="A">
+              <li>por um fone de ouvido</li>
+              <li>por o capacete</li>
+              <li>vestir as luvas</li>
+              <li>calcar a bota</li>
+              <li>aproveitar a viagem</li>
+             </ol>
+             <!-- passo a passo para melhor usabilidade do vs -->
+             <ol type="I">
+              <li>instalar o vs code</li>
+              <li>criar a pasta</li>
+              <li>abrir a pasta com o vs</li>
+              <li>instalar o live server</li>
+              <li>ir em configuracoes e ativar word wrap</li>
+             </ol>
+          
+<h2 style="background-color: bisque;"> tabelas</h2>
+
+             <table style="background-color: aliceblue;">
+            <tr>
+                <th>codigo</th>
+                <th>produto</th>
+                <th>valor</th>
+            </tr>
+            <tr>
+                <th>01</th>
+                <th>arroz</th>
+                <th>22,50</th>
+            </tr>
+            <tr>
+                <th>02</th>
+                <th>feijao</th>
+                <th>8,40</th>
+            </tr>
+            <tr>
+                <th>03</th>
+                <th>sal</th>
+                <th>1,50</th>
+            </tr>
+          
+             </table>
+             <br><br>
+
+            <table style="background-color: aliceblue;">
+             <tr>
+                <th colspan="2"> musicas favoritas</th>
+             </tr>
+             <th>coldplay</th>
+                <th>yelow</th>
+             <tr>
+                <th>artick monkeys</th>
+                <th>brick by brick</th>
+             </tr>
+            </table>
+            <br><br>
+            <table style="background-color: aliceblue;">
+                <tr>
+                    <th rowspan="2">gabriel noaves</th>
+                    <td>(44) 9 9999-9999</td>
+                </tr>
+                <tr>
+                    <td>(44) 9 9998-9898</td>
+                </tr>
+            </table>
+      </tbody>
+
+<br><br><br>
+    <footer>
+        <h3>realizando cadastros</h3>
+        <form action="cadastro.js">
+            <b>digite seu nome</b> <br>
+            <input type="text" name="nome do aluno">
+
+            <h3>aulno na unipar?</h3>
+            <input type="radio" name="ALUNO" value="ALUNO=NAO"><b>SIM</b><br>
+            <input type="radio" name="ALUNO" value="ALUNO=NAO"><b>NAO</b>
+            <h3>O QUE VOCE FAZ NAS HORAS VAGAS</h3>
+            <input type="checkbox"><B>DORMIR</B><br>
+            <input type="checkbox"><b>jogar LOL</b><br>
+            <input type="checkbox"><b>chorar pensando na prova</b><br>
+            
+            <BR>
+            <H3>O que te motivou a entrar na faculdade de ADS ?</H3>
+            <textarea name="BLOCKTEXT" id="123" cols="30" rows="10"></textarea>
+
+
+
+            <br><br>
+            <input type="submit">
+        </form>
+    </footer>
+</body>
+</html>
